@@ -1,0 +1,101 @@
+svg {
+
+  width: 40px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgba(85, 175, 73, 0.5);
+  padding: 0.5em 2em;
+  font-size: 60px;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    font-size: 50px;
+    font-family: 'Edu VIC WA NT Beginner',
+      cursive;
+    font-weight: bold;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
+
+  }
+
+
+}
+
+body {
+
+  background: linear-gradient(to right, rgb(190, 236, 190), rgb(111, 233, 111));
+
+}
+
+.container {
+  background-color: rgb(156, 240, 198);
+
+  max-width: 400px;
+  margin: 3em auto;
+
+  .screen {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 100px;
+    font-size: 60px;
+    overflow: hidden;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .plus {
+      height: 65px;
+      border: solid white 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      font-weight: 400;
+      font-family: 'Work Sans';
+
+      &:hover {
+        background-color: rgb(215, 247, 229);
+        cursor: pointer;
+      }
+
+    }
+        button {
+          height: 65px;
+          border: solid white 1px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 35px;
+          font-weight: bold;
+          font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+          &:hover {
+            background-color: rgb(215, 247, 229);
+            cursor: pointer;
+          }
+        }
+
+    
+  }
+
+}
