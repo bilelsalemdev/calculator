@@ -1,2 +1,2 @@
-# timer-chrono
-a stopwatch and a timer in the same application
+# calculator
+a calculator with log and exp
